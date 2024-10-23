@@ -1,9 +1,10 @@
 # Data-Preprocessing-Using-Spark
 This project uses Apache Spark for distributed data preprocessing to maximize resource utilization and minimize data processing time.
 
-The python script used starts by importing the necessary libraries Python program for data preprocessing then it goes a head to handle missing values through imputation. Numerical missing values were filled using mean imputation, while categorical gaps were addressed with mode imputation. The data is then scrutinized the dataset for duplicate entries, removing any found to maintain data integrity. For the exploratory phase, the project employed various visualization techniques. Histograms were created to illustrate the distribution patterns of numerical predictors, while bar plots were utilized to showcase the frequency distribution of categorical variables. To identify potential outliers in numerical features, I generated boxplots.
-The final step involved creating a correlation matrix. This allowed me to examine the relationships between various predictors and the response variable (exam score). This matrix proved invaluable in highlighting strongly correlated predictors, which could be crucial for subsequent analysis stages.
+The python script used starts by importing the necessary libraries and then it goes a head to handle missing values through imputation. Numerical missing values were filled using mean imputation, while categorical gaps were addressed with mode imputation. The data is then scrutinized for duplicate entries, removing any found to maintain data integrity. For the exploratory phase, the project employed various visualization techniques. Histograms were created to illustrate the distribution patterns of numerical predictors, while bar plots were utilized to showcase the frequency distribution of categorical variables. To identify potential outliers in numerical features, the code generated scatterplots.
+The final step involved creating a correlation matrix. This allowed for the examination of relationships between various predictors and the response variable.
 
+Key Steps:
 Using 2 vms I generated ssh key pair for connection between the two vms (master and worker) using the following commands;
 
 Ssh-keygen -t rsa
