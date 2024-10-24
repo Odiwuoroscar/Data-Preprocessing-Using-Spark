@@ -37,6 +37,6 @@ To submit a spark job I used Command
 
 -- /opt/spark/bin/spark-submit --master spark://hadoop1:7077 /opt/spark_scrypt.py
 
-IObservations
+Observations
 
-I observed that the duration for completing the action using only 1 Vm was approximately 2.0 minutes while the duration for completing a specific action using two VMs was about 8 seconds. Therefore running the Python code using both VMs (Hadoop 1 and Hadoop 2) demonstrates a significant improvement in processing speed.
+It was observed that the duration for completing the action using only 1 Vm was approximately 2.0 minutes while the duration for completing a specific action using two VMs was about 8 seconds. Therefore running the Python code using both VMs (Hadoop 1 and Hadoop 2) demonstrates a significant improvement in processing speed.
